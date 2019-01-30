@@ -3,7 +3,7 @@ include_directories(${Myprojectname_SOURCE_DIR}/src
     ${Boost_INCLUDE_DIRS}
     )
 
-add_definitions(-DBOOST_TEST_DYN_LINK)
+add_definitions(-DBOOST_TEST_DYN_LINK -DBOOST_TEST_MAIN)
 
 
 SET(test_sources

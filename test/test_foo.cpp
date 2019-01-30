@@ -1,4 +1,3 @@
-#define BOOST_TEST_MODULE MyCMakeTest
 #include <boost/test/unit_test.hpp>
 
 #include "Foo.h"
